@@ -59,12 +59,3 @@ dependencies {
     implementation(libs.androidx.runtime.android)
 }
 
-publishing {
-    publications {
-        create<MavenPublication>("maven") {
-            groupId = "org.example.project"
-            artifactId = "tmcomponentlibrary"
-            version = "1.0.0"
-        }
-    }
-}
