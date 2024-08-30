@@ -8,6 +8,7 @@ pluginManagement {
                 includeGroupAndSubgroups("com.google")
             }
         }
+        maven { url = uri("https://jitpack.io") } // Add JitPack repository here
         gradlePluginPortal()
         mavenCentral()
     }
@@ -22,6 +23,7 @@ dependencyResolutionManagement {
                 includeGroupAndSubgroups("com.google")
             }
         }
+        maven { url = uri("https://jitpack.io") } // Add JitPack repository here
         mavenCentral()
     }
 }
